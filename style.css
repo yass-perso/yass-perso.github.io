@@ -1,0 +1,203 @@
+body{
+    font-family: "Open sans", Arial, sans-serif;
+}
+
+img{
+   border-radius: 150px;
+    
+   
+}
+
+.page{
+    width: 800px;
+    margin: auto;
+    font-family: "Open sans", Arial, sans-serif;
+    font-size: 16px;
+    border: 5px solid #22353c;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #dea26c;
+    padding: 20px;
+    background-color: #22353c;
+    color: #dea26c;
+}
+.infophoto{
+    height: 250px;
+
+}
+
+.info{
+    float: right;
+    
+}
+
+.photo{
+    float: left;
+}
+
+.p0{
+    color: #dea26c;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #dea26c;
+    font-size: 18px;
+}
+
+strong{
+    color: #dea26c;
+}
+
+.section{
+    margin-bottom: 70px;
+
+}
+
+.section:hover{
+    color: #e7e3e2;
+}
+
+.gauche{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.droite{
+    margin-left: 150px;
+    margin-top: 37px;
+    
+}
+
+h2{
+    font-size: 24px;
+    color: #dea26c;
+    border-bottom: 3px solid #dea26c;
+
+}
+
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#forma1 p{
+    margin-bottom: 32px;
+}
+
+#exper1 p{
+    margin-bottom: 35px;
+    
+}
+
+#compet1 p{
+    margin-top: 47px;
+}
+
+#compet2 p{
+    margin-bottom: 50px;
+}
+
+#inter1 p{
+    margin-top: 49px;
+}
+strong{
+    font-size:30px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+    
+    h2{
+        font-size: 14px;
+    }
+    
+    .page{
+        
+        width: 400px;
+        font-size: 12px;
+        }
+        
+    .gauche{
+        
+        font-size: 14px;
+            
+        }
+             
+    .titre{
+        
+        font-size: 14px;
+            
+        }
+    .section{
+        
+            margin-bottom: 15px;
+
+         }
+    
+    .photo{
+    
+        float: left;
+        width: 20px;
+        margin-left: 63px;
+    }
+    
+    .oyass{
+        
+        font-size: 20px;
+
+    }
+    
+    a{
+    
+    font-size: 12px;
+
+    }
+    
+    .p0{
+    color: #dea26c;
+    font-size: 12px;
+    margin-right: 100px;
+    }
+    
+    .infophoto{
+    height: 400px;
+
+    }
+    
+    
+    .info{
+    padding-top: 230px;
+    margin-right: 90px;
+    
+    }
+    
+    #compet1 p{
+    margin-top: 35px;
+    }
+    
+    #compet2 p{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    }
+
+    .inter2{
+        
+    margin-top: 40px;
+    }
+    
+    #exper1 p{
+    margin-top: 44px;
+    
+    }
+    
+    #forma1 p{
+    margin-top: 38px;
+    }
+}
+
+    
+    
